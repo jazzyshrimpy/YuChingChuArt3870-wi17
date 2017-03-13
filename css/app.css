@@ -1,0 +1,42 @@
+/* this is my stylesheet for the homepage*/
+/* table of contects */
+/* main body styles */
+/* footer styles */
+
+  img {
+      border-radius: 150px;
+  }
+
+  body {
+      color: white;
+      background-color: black;
+  }
+
+  nav ul{
+      list-style-type: none;
+      background-color: orange;
+      padding: 10px 10px 10px 10px;
+      text-align: center;
+  }
+  nav li {
+      display: inline;
+      font-size:  20px;
+}
+  nav a:link, nav a:visited {
+      color: teal;
+      font-family: comic sans ms;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+}
+  nav a:hover {
+      background-color:silver;
+      border-radius: 10px;
+}
+  h1,h6 {
+      color: white;
+      font-family: 'Rock Salt', cursive;
+}
+
+/* header styles */
+/* main body styles */
+/* footer styles */

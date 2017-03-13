@@ -1,0 +1,22 @@
+#board{
+width:800px;
+height:10000px;
+border: 1px solid green;
+position:static;
+margin: 0 auto;
+}
+#taiwanfly{
+  position:relative;
+  top:0;
+  left: 100px;
+
+}
+#thailandfly{
+  position:relative;
+  top:0;
+  left:300px;
+
+}
+body{
+  background-color: lightblue;
+}

@@ -1,0 +1,116 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>comtact</title>
+<link rel="stylesheet" href="css/foundation.css">
+<link rel="stylesheet" href="css/app.css">
+<link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+</head>
+<body>
+
+
+  <div class="wrapper">
+
+
+
+    <div class="nav">
+        <div class="top-bar  ">
+          <div class="top-bar-left ">
+            <ul class="menu">
+              <li class="menu-text "><img src="image/white.png" alt=""></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://angryfishsushi.revelup.com/weborder/" target="_blank">Online Order</a></li>
+    </ul>
+          </div>
+          <div class="top-bar-left ">
+            <ul class="dropdown menu " data-dropdown-menu>
+
+              <li>
+                <a href="#">Social Media</a>
+                <ul class="menu vertical">
+                  <li><a href="https://www.yelp.com/biz/angry-fish-sushi-san-leandro"target="_blank">Yelp</a></li>
+                  <li><a href="https://www.facebook.com/AngryFishSushi"target="_blank">Fackbook</a></li>
+                  <li><a href="https://www.instagram.com/angryfishsushi/"target="_blank">Instagram</a></li>
+                </ul>
+                <li><span id="greeting">hello!</span></li>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+    </div>
+  </header>
+
+<div class="row">
+<div class="columns small-12 medium-6 large-6 main ">
+  <p class="head"> Contact Information
+
+   <p> Address:</p><p>16250 E 14th Street San Leandro, CA 94578 </p></p>
+   <p> 510-276-3999</p>
+ </div>
+
+
+<div class="columns small-12 medium-6 large-6 main ">
+  <div data-interchange="[partial-sm-index.html, small],  [partial-lg-index.html, large]">
+    <div data-alert class="alert-box secondary radius">
+      <div class="flex-video">
+      <img src="angryfishsushi-map.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+  </div>
+
+</div>
+
+
+      <div class="columns small-12 medium-12 large-12  ">
+        <p>&copy 2017 Angry Fish Sushi</p>
+      </div>
+
+  </footer>
+  </div>
+
+
+  <script language="JavaScript">
+      var myDate = new Date();
+      /* hour is before noon */
+      if ( myDate.getHours() < 12 )
+      {
+          document.getElementById('greeting').innerHTML = "Good Morning!";
+      }
+      else  /* Hour is from noon to 5pm (actually to 5:59 pm) */
+      if ( myDate.getHours() >= 12 && myDate.getHours() <= 17 )
+      {
+          document.getElementById('greeting').innerHTML = "Good Afternoon!";
+      }
+      else  /* the hour is after 5pm, so it is between 6pm and midnight */
+      if ( myDate.getHours() > 17 && myDate.getHours() <= 24 )
+      {
+         document.getElementById('greeting').innerHTML = "Good Evening!";
+      }
+      else  /* the hour is not between 0 and 24, so something is wrong */
+      {
+          document.getElementById('greeting').innerHTML = "I'm not sure what time it is!";
+      }
+      /* remove the following in your live script. It is for testing */
+      document.write("<br /><br /> The hour is: ")
+      document.write( myDate.getHours() );
+      </script>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

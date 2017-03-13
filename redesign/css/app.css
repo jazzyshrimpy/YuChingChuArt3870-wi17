@@ -1,0 +1,89 @@
+/*this is  my stylesheet for the homepage */
+#order{
+  color:red;
+}
+#greeting{ color:red;
+
+font-family: 'Bungee Inline', cursive;
+text-align: center;
+padding-left:30px;
+}
+ .head{
+  color: yellow; font-size:25px;
+}
+.head{
+  font-size:25px;
+  color: yellow;
+}
+
+.nav{
+
+background-color: white;
+  text-align:center;
+font-family: 'Shojumaru', cursive;
+margin-bottom: 20px;
+}
+.top-bar-left{
+  background-color: black;
+}
+h1{
+  text-align: center;
+  padding-top: 10px;
+  background-color: black;
+}
+
+a{
+  color: #01aef0;
+  font-size: 120%;
+}
+.mid{margin-bottom: 50px;
+
+}
+.grallery{
+  margin-bottom: 50px;
+}
+body{
+  background-color: black;
+  background-image: url(../123.gif);
+   background-repeat:repeat-y;
+　　 background-repeat:repeat-x;
+　　 background-repeat:no-repeat;
+     background-size: 100%;
+}
+
+h5{color: red;}
+
+.sum{
+  margin-bottom: 50px;
+}
+
+　　
+.footer{
+  background-color: white;
+}
+h2,p{
+color:#01aef0;
+font-family: 'Bungee Inline', cursive;
+text-align: center;
+}
+h6,li{
+  color:darkgrey;
+}
+h3{
+  text-align: center;
+  color:white;
+  font-family: 'Bungee Inline', cursive;
+
+}
+h4{text-align: center;
+color:red;
+font-family: 'Bungee Inline', cursive;
+margin-bottom: 20px;
+}
+
+
+
+
+
+.top-bar, .top-bar ul {
+    background-color: white;}
