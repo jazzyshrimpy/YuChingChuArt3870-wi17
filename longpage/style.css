@@ -1,22 +1,258 @@
-#board{
-width:800px;
-height:10000px;
-border: 1px solid green;
-position:static;
-margin: 0 auto;
-}
-#taiwanfly{
-  position:relative;
-  top:0;
-  left: 100px;
-
-}
-#thailandfly{
-  position:relative;
-  top:0;
-  left:300px;
-
-}
 body{
+  position: absolute;
+  padding: 0;
   background-color: lightblue;
+  height:8000px;
+  width:100%;
+  background-image:
+  url("images/fans_web.gif"),
+  url("images/flower_web.gif"),
+  url("images/cloud01_web.gif"),
+  url("images/hills_back_web.gif"),
+  url("images/road01_web.gif");/*05*/
+  background-position:
+  left 480px,
+  left 350px,
+  100px 0,
+  left 1790px,
+  left 550px;/*05*/
+  background-repeat: repeat-x;
+  margin:0px;
+  overflow-x: hidden;
+  overflow-y: visible;
+  font-weight: normal;
+  font-style: normal;
+  font-family: helvetica;
+}
+#distance{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+#circle{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 20px;
+  opacity:.5;
+  background-image:url("images/circle.gif");
+  background-position: left top;
+  background-repeat:no-repeat;
+  z-index: 99;
+}
+#city{
+position: relative;
+top: 0;
+left: 600px;
+z-index: 98;
+}
+article{
+  font-size: 40px;
+  color: white;
+  position: relative;
+  left: 600px;
+  z-index: 97;
+  animation-name:move;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+  }
+
+  @keyframes move {
+   0% {transform: translateX(20px);}
+   50% {transform: translateX(40px);}
+   100% {transform: translateX(20px);}
+  }
+#person1{
+  position: absolute;
+  top: 290px;
+  left: 680px;
+  z-index: 101;
+}
+#hills_front01{
+  position: absolute;
+  top: 1790px;
+  left:0;
+  z-index: 86;
+}
+#hills_front02{
+  position: absolute;
+  top: 1790px;
+  left: 950px;
+  z-index: 87;
+}
+#cartop{
+  position: absolute;
+  top: 550px;
+  left: 770px;
+  z-index: 42;
+  display: none;
+  }
+#road02{
+  position: absolute;
+  top:1340px;
+  left:700px;
+  z-index: 31;
+}
+#road03{
+  position: absolute;
+  top:748px;
+  left:700px;
+  z-index: 32;
+}
+#texi{
+  position: relative;
+  top: 180px;
+  left:0;
+  background-image: url("images/single_car.png");
+  width: 350px;
+  height: 200px;
+  animation-name:play;
+  animation-duration: 2s;
+  animation-iteration-count:1;
+  animation-fill-mode:forwards;
+  z-index: 89;
+}
+
+@keyframes play {
+   from { transform:translateX(0);}
+     to { transform:translateX(650px); }
+}
+
+#airport{
+  position: absolute;
+  top:1685px;
+  left:620px;
+  z-index: 88;
+}
+#tree{
+  position: absolute;
+  top:2000px;
+  left:150px;
+  z-index: 102;
+}
+#fly{
+  position: fixed;
+  top:710px;
+  left:730px;
+  z-index: 30;
+}
+#road04{
+  position: absolute;
+  top:1937px;
+  left:700px;
+  z-index: 19;
+}
+#road05{
+  position: absolute;
+  top:2500px;
+  left:700px;
+  z-index: 20;
+}
+#bear{
+  position: absolute;
+  top:3500px;
+  left:200px;
+}
+
+#elephant{
+  position: absolute;
+  top:3500px;
+  left:1200px;
+}
+#nihao{
+  position: absolute;
+  top:4500px;
+  left:200px;
+}
+#sawadika{
+  position: absolute;
+  top:4500px;
+  left:1200px;
+}
+#milktea{
+  position:absolute;
+  top:5500px;
+  left:200px;
+}
+#thaitea{
+  position: absolute;
+  top:5500px;
+  left:1200px;
+}
+#newyear{
+  position:absolute;
+  top:6500px;
+  left:200px;
+}
+#songkran{
+  position: absolute;
+  top:6500px;
+  left:1200px;
+}
+#cloud{
+  position:absolute;
+  top: 1100px;
+  left:200px;
+  opacity: .5;
+}
+#cloud01{
+  position:absolute;
+  top:850px;
+  left: 1300px;
+  opacity: .5;
+}
+#cloud02{
+  position:absolute;
+  top:1400px;
+  left: 500px;
+  opacity: .7;
+}
+#cloud03{
+  position:absolute;
+  top:2100px;
+  left: 300px;
+  opacity: .5;
+}
+
+#cloud04{
+  position: absolute;
+  top:2700px;
+  left: 1200px;
+  opacity: .6;
+}
+#cloud05{
+  position: absolute;
+  top:3680px;
+  left: 500px;
+}
+#cloud06{
+  position:absolute;
+  top:4560px;
+  left: 1100px;
+  opacity: .8;
+}
+#cloud07{
+  position: absolute;
+  top:5110px;
+  left: 400px;
+  opacity: .5;
+}
+#cloud08{
+  position: absolute;
+  top:5760px;
+  left: 200px;
+  opacity: .8;
+}
+#cloud09{
+  position: absolute;
+  top:6700px;
+  left: 1400px;
+  opacity: .5;
+}
+#road06{
+  position: absolute;
+  top:8000px;
+  left:700px;
 }
